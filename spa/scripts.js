@@ -40,5 +40,5 @@ function vypoctiPrvocislo() {
         document.getElementById('outputNumber').textContent ="vlozte text"
 
     }
-//TEST jakub
+//TEST jakub 2
 }
