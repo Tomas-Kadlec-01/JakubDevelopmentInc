@@ -40,4 +40,6 @@ function vypoctiPrvocislo() {
         document.getElementById('outputNumber').textContent ="vlozte text"
 
     }
+
+    
 }
