@@ -6,39 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jakub's web </title>
     <script src="scripts.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 
 <body onload="onLoadTest()">
-    <h1>Program na vypocet prvocisel</h1>
-    <div>
-        <input id="inputNumber" placeholder="Vloz cislo" name="name">
+    <div class="container">
+        <h1 class="display-3">Program na vypocet druhe mocniny</h1>
+        <div>
+            <input id="inputNumber" placeholder="Vloz cislo" name="name">
 
-        </input>
+            </input>
 
-    </div>
-    <br>
-    <div>
-        <button onclick="vypoctiPrvocislo() " class="btn">
-            vypocti
-        </button>
-    </div>
-    <br>
-    <br>
-    <hr>
-    <div>
-        <p id="outputNumber">
-            -------
-        </p>
-    </div>
-    <hr>
-    <div>
-        <p id="outputTime">
-            
-        </p>
-    </div>
+        </div>
+        <br>
+        <div>
+            <button onclick="vypocti()" type="button" class="btn btn-primary">
+                vypocti
+            </button>
+        </div>
+        <br>
+        <br>
+        <hr>
+        <div class="card">
+            <div class="card-body">
+            <strong>
+                <p id="outputNumber">
+                       Vysledek:  
+                </p>
+            </strong>
+            </div>
+        </div>
 
 
-    <hr>
+        <hr>
+    </div>
 </body>
 
 
